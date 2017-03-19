@@ -1,10 +1,5 @@
 package com.devgmail.mitroshin.totutu.util;
 
-//Абстрактный класс.
-//Наследники данного класса должны просто вернуть экземпляр соответствующего фрагмента,
-//чтобы начать выполнять функцию хоста данного фрагмента.
-//Наличие данного класса упрощает реализацию активностей-хостингов.
-
 import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.support.v4.app.Fragment;
@@ -28,6 +23,11 @@ import com.devgmail.mitroshin.totutu.R;
  See the License for the specific language governing permissions and
  limitations under the License.
  */
+
+//Абстрактный класс.
+//Наследники данного класса должны просто вернуть экземпляр соответствующего фрагмента,
+//чтобы начать выполнять функцию хоста данного фрагмента.
+//Наличие данного класса упрощает реализацию активностей-хостингов.
 
 public abstract class SingleFragmentActivity extends FragmentActivity {
 
